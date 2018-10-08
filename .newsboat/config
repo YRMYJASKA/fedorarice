@@ -20,6 +20,13 @@ bind-key D pb-download
 bind-key U show-urls
 bind-key x pb-delete
 
+color info black color34
+color listfocus yellow color202 bold
+color listfocus_unread yellow color202 bold
+color background color202 default
+color listnormal color152 default
+color listnormal_unread color202 default
+
 browser firefox
 macro , open-in-browser
 macro v set browser "i3 exec mpv"; open-in-browser ; set browser firefox
