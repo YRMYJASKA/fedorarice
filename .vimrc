@@ -160,5 +160,8 @@ nmap <space>li <plug>(vimtex-info)
 let g:vimtex_view_method = 'mupdf'
 let g:tex_flavor = 'latex'
 
+" Spell checking
+set spell spelllang=en_gb
+
 " Colorscheme
 colo Tomorrow-Night-Eighties  

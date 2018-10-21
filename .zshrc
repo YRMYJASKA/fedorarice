@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-function new_latex(){
+function new_project(){
 	cp -r ~/Templates/$1 ./$2
 }
 
@@ -108,4 +108,4 @@ alias d="sudo dnf install"
 alias dup="sudo dnf update"
 alias dr="sudo dnf remove"
 alias ci="vim ~/.config/i3/config"
-alias lp="new_latex"
+alias p="new_project"
