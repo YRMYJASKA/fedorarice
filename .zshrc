@@ -100,6 +100,7 @@ function new_project(){
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+export PATH=$PATH:~/.local/bin
 alias l="ls -a --color=auto --group-directories-first"
 alias rm="rm -r" 
 alias vim="vimx --servername vim"

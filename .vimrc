@@ -47,8 +47,11 @@ Plugin 'octol/vim-cpp-enhanced-highlight'
 Plugin  'Yggdroot/indentLine'
 " HTML writing
 Plugin 'alvan/vim-closetag'
-"LaTeX writing
+" LaTeX writing
 Plugin 'lervag/vimtex'
+" Haskell
+Plugin 'neovimhaskell/haskell-vim'
+Plugin 'alx741/vim-hindent'
 call vundle#end()
 " YouCompleteMe settings
 let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
@@ -161,7 +164,7 @@ let g:vimtex_view_method = 'mupdf'
 let g:tex_flavor = 'latex'
 
 " Spell checking
-set spell spelllang=en_gb
+autocmd FileType tex set spell spelllang=en_gb
 
 " Colorscheme
 colo Tomorrow-Night-Eighties  
