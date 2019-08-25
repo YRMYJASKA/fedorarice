@@ -1,2 +1,4 @@
+# Deprecated! Left untouched for archival purposes.
 # fedorarice
-My Fedora 28 rice with config files and installation script
+
+My (old) Fedora 28 rice with config files and installation script
